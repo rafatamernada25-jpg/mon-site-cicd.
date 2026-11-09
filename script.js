@@ -1,5 +1,6 @@
-function saluer(nada) 
-{ return 'Bonjour ' + nom + ' !'; }
+function saluer(nom) { 
+  return 'Bonjour ' + nom + ' !'; 
+}
 if (typeof module !== 'undefined') {
   module.exports = { saluer }; }
 if (typeof document !== 'undefined') {
